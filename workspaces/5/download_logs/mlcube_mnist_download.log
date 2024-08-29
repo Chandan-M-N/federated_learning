@@ -1,0 +1,4 @@
+2024-08-27 21:27:51,724 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-27 21:27:52,007 - dev.mnist - MainThread - INFO - MNIST dataset has been downloaded.
+2024-08-27 21:27:52,015 - flwr - MainThread - INFO - 
+2024-08-27 21:27:52,015 - flwr - MainThread - INFO - Received: train message 96651e5e-7813-44cc-836e-98ee06ab0ceb

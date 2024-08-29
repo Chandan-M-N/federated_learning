@@ -1,0 +1,77 @@
+2024-08-28 13:04:34,855 - logging_configuration - MainThread - INFO - Directory for evaluate logs created
+2024-08-28 13:04:34,855 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 1, 'batch_size': 32}).
+2024-08-28 13:04:34,855 - logging_configuration - MainThread - INFO - Parameters for evaluate fetched from yaml file {'optimizer': 'adam', 'epochs': 1, 'batch_size': 32}
+2024-08-28 13:04:34,894 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz).
+2024-08-28 13:04:34,894 - logging_configuration - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz).
+2024-08-28 13:04:35,293 - logging_configuration - MainThread - INFO - Results after evaluating {'loss': '0.13969530165195465', 'accuracy': '0.10180000215768814'}
+2024-08-28 13:04:35,293 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-28 13:04:35,294 - logging_configuration - MainThread - INFO - Metrics after evaluate {'loss': 0.13969530165195465, 'accuracy': 0.10180000215768814, 'num_examples': 1}
+2024-08-28 13:04:35,294 - logging_configuration - MainThread - INFO - Config shared to server after evaluate {'loss': 0.13969530165195465, 'accuracy': 0.10180000215768814, 'num_examples': 1}
+2024-08-28 13:04:35,294 - flwr - MainThread - INFO - Sent reply
+2024-08-28 13:04:35,295 - flwr - MainThread - INFO - 
+2024-08-28 13:04:35,295 - flwr - MainThread - INFO - Received: reconnect message 33fb4cc7-9efe-452d-91bd-84daa6dc3d42
+2024-08-28 13:04:35,296 - flwr - MainThread - INFO - Disconnect and shut down
+2024-08-28 13:04:35,296 - logging_configuration - MainThread - INFO - Started the Client 8
+2024-08-28 13:14:22,594 - logging_configuration - MainThread - INFO - Directory for evaluate logs created
+2024-08-28 13:14:22,594 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 10, 'batch_size': 32}).
+2024-08-28 13:14:22,594 - logging_configuration - MainThread - INFO - Parameters for evaluate fetched from yaml file {'optimizer': 'adam', 'epochs': 10, 'batch_size': 32}
+2024-08-28 13:14:22,633 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz).
+2024-08-28 13:14:22,633 - logging_configuration - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz).
+2024-08-28 13:14:23,025 - logging_configuration - MainThread - INFO - Results after evaluating {'loss': '0.06708269566297531', 'accuracy': '0.09849999845027924'}
+2024-08-28 13:14:23,025 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-28 13:14:23,026 - logging_configuration - MainThread - INFO - Metrics after evaluate {'loss': 0.06708269566297531, 'accuracy': 0.09849999845027924, 'num_examples': 1}
+2024-08-28 13:14:23,026 - logging_configuration - MainThread - INFO - Config shared to server after evaluate {'loss': 0.06708269566297531, 'accuracy': 0.09849999845027924, 'num_examples': 1}
+2024-08-28 13:14:23,026 - flwr - MainThread - INFO - Sent reply
+2024-08-28 13:14:23,027 - flwr - MainThread - INFO - 
+2024-08-28 13:14:23,027 - flwr - MainThread - INFO - Received: reconnect message 7fcb0de5-67b5-4000-a644-a23bbbf792df
+2024-08-28 13:14:23,029 - flwr - MainThread - INFO - Disconnect and shut down
+2024-08-28 13:14:23,029 - logging_configuration - MainThread - INFO - Started the Client 8
+2024-08-28 17:51:25,012 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 5, 'batch_size': 32}).
+2024-08-28 17:51:25,050 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz).
+2024-08-28 17:51:25,441 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-28 17:51:25,442 - flwr - MainThread - INFO - Sent reply
+2024-08-28 17:51:25,443 - flwr - MainThread - INFO - 
+2024-08-28 17:51:25,443 - flwr - MainThread - INFO - Received: reconnect message 1b3032f3-81e6-4c89-9668-33a24428c8d0
+2024-08-28 17:51:25,444 - flwr - MainThread - INFO - Disconnect and shut down
+2024-08-28 18:04:23,594 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 15, 'batch_size': 64}).
+2024-08-28 18:04:23,632 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz).
+2024-08-28 18:04:24,168 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-28 18:04:24,169 - flwr - MainThread - INFO - Sent reply
+2024-08-28 18:04:24,170 - flwr - MainThread - INFO - 
+2024-08-28 18:04:24,170 - flwr - MainThread - INFO - Received: reconnect message 83b3ffaf-1b69-4faf-8a14-845991d8d278
+2024-08-28 18:04:24,172 - flwr - MainThread - INFO - Disconnect and shut down
+2024-08-28 18:29:11,237 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 15, 'batch_size': 64}).
+2024-08-28 18:29:11,282 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz).
+2024-08-28 18:29:12,150 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-28 18:29:12,150 - flwr - MainThread - INFO - Sent reply
+2024-08-28 18:29:12,152 - flwr - MainThread - INFO - 
+2024-08-28 18:29:12,153 - flwr - MainThread - INFO - Received: reconnect message 01a4d1ab-3f3b-44b1-8cf4-8357bab59202
+2024-08-28 18:29:12,155 - flwr - MainThread - INFO - Disconnect and shut down
+2024-08-28 18:30:31,126 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 15, 'batch_size': 64}).
+2024-08-28 18:30:31,172 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz).
+2024-08-28 18:30:31,814 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-28 18:30:31,815 - flwr - MainThread - INFO - Sent reply
+2024-08-28 18:30:31,817 - flwr - MainThread - INFO - 
+2024-08-28 18:30:31,817 - flwr - MainThread - INFO - Received: reconnect message b10a33a8-55e6-4b8c-8cca-405839091643
+2024-08-28 18:30:31,833 - flwr - MainThread - INFO - Disconnect and shut down
+2024-08-28 18:31:49,561 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 12, 'batch_size': 64}).
+2024-08-28 18:31:49,602 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz).
+2024-08-28 18:31:50,240 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-28 18:31:50,241 - flwr - MainThread - INFO - Sent reply
+2024-08-28 18:31:50,242 - flwr - MainThread - INFO - 
+2024-08-28 18:31:50,242 - flwr - MainThread - INFO - Received: reconnect message 772bc1f2-7d32-4c22-a9d2-f17a3f3e44c8
+2024-08-28 18:31:50,244 - flwr - MainThread - INFO - Disconnect and shut down
+2024-08-28 18:43:43,105 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 12, 'batch_size': 64}).
+2024-08-28 18:43:43,144 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz).
+2024-08-28 18:43:43,737 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-28 18:43:43,738 - flwr - MainThread - INFO - Sent reply
+2024-08-28 18:43:43,739 - flwr - MainThread - INFO - 
+2024-08-28 18:43:43,739 - flwr - MainThread - INFO - Received: reconnect message d648e6f1-d160-4fc7-8da7-9309ce87d991
+2024-08-28 18:43:43,740 - flwr - MainThread - INFO - Disconnect and shut down
+2024-08-28 18:59:53,803 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 1, 'batch_size': 32}).
+2024-08-28 18:59:53,843 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz).
+2024-08-28 18:59:54,382 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-28 18:59:54,383 - flwr - MainThread - INFO - Sent reply
+2024-08-28 18:59:54,384 - flwr - MainThread - INFO - 
+2024-08-28 18:59:54,384 - flwr - MainThread - INFO - Received: reconnect message 571942d0-c823-494b-aa3e-66e46971a5fe
+2024-08-28 18:59:54,387 - flwr - MainThread - INFO - Disconnect and shut down

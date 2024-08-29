@@ -1,0 +1,16 @@
+2024-08-26 18:22:47,907 - tensorflow - MainThread - INFO - Assets written to: /home/sunlab/flower/quickstart-mlcube/workspaces/4/model_in/mnist_model/assets
+2024-08-26 18:26:51,026 - tensorflow - MainThread - INFO - Assets written to: /home/sunlab/flower/quickstart-mlcube/workspaces/4/model_in/mnist_model/assets
+2024-08-26 18:43:43,886 - tensorflow - MainThread - INFO - Assets written to: /home/sunlab/flower/quickstart-mlcube/workspaces/4/model_in/mnist_model/assets
+2024-08-26 19:07:20,612 - tensorflow - MainThread - INFO - Assets written to: /home/sunlab/flower/quickstart-mlcube/workspaces/4/model_in/mnist_model/assets
+2024-08-26 19:08:43,455 - tensorflow - MainThread - INFO - Assets written to: /home/sunlab/flower/quickstart-mlcube/workspaces/4/model_in/mnist_model/assets
+2024-08-26 19:14:02,958 - tensorflow - MainThread - INFO - Assets written to: /home/sunlab/flower/quickstart-mlcube/workspaces/4/model_in/mnist_model/assets
+2024-08-26 19:17:25,175 - tensorflow - MainThread - INFO - Assets written to: /home/sunlab/flower/quickstart-mlcube/workspaces/4/model_in/mnist_model/assets
+2024-08-26 19:53:11,494 - tensorflow - MainThread - INFO - Assets written to: /home/sunlab/flower/quickstart-mlcube/workspaces/4/model_in/mnist_model/assets
+2024-08-26 20:06:25,800 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-26 20:06:25,800 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/4/data/mnist.npz)
+2024-08-26 20:06:25,808 - flwr - MainThread - INFO - 
+2024-08-26 20:06:25,808 - flwr - MainThread - INFO - Received: train message 1b14b5c7-11da-4338-9410-03e8e9d69fd4
+2024-08-27 21:22:08,922 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-27 21:22:08,922 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/4/data/mnist.npz)
+2024-08-27 21:22:08,930 - flwr - MainThread - INFO - 
+2024-08-27 21:22:08,930 - flwr - MainThread - INFO - Received: train message be19e8bb-068b-4b3f-8987-7f0ab9972160

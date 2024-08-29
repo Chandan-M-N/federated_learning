@@ -1,0 +1,294 @@
+2024-08-28 13:04:30,816 - logging_configuration - MainThread - INFO - Download Directory created to store the data /home/sunlab/flower/quickstart-mlcube/workspaces/8/download_logs
+2024-08-28 13:04:30,816 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 13:04:31,104 - dev.mnist - MainThread - INFO - MNIST dataset has been downloaded.
+2024-08-28 13:04:31,104 - logging_configuration - MainThread - INFO - Dataset downloaded
+2024-08-28 13:04:31,112 - flwr - MainThread - INFO - 
+2024-08-28 13:04:31,113 - flwr - MainThread - INFO - Received: train message 69ba74a3-8ea4-41a9-b72d-349b742604af
+2024-08-28 13:04:31,115 - logging_configuration - MainThread - INFO - Fit method parameters  or initial parameters shared by server [array([[-6.9377661e-02,  6.6963740e-02,  6.4246275e-02, ...,
+         5.0467215e-02, -4.2079348e-02, -5.9390470e-02],
+       [-5.9706718e-04, -7.7803567e-02,  3.8579851e-04, ...,
+        -7.8919426e-02,  3.5737388e-02,  5.9197247e-03],
+       [ 3.8588710e-02,  2.9766358e-02,  1.8125422e-02, ...,
+        -4.9047999e-02, -4.6841346e-02,  1.9728839e-02],
+       ...,
+       [ 1.4080107e-04, -2.9911224e-02,  3.1977892e-02, ...,
+        -5.2752253e-02, -5.9487261e-02,  2.7142234e-02],
+       [ 4.1525140e-03, -5.9832603e-02, -5.8591008e-02, ...,
+        -9.3981624e-05, -7.1322009e-02, -1.2722418e-02],
+       [-6.1808590e-02,  1.9769251e-02, -7.8681529e-02, ...,
+         8.0479182e-02,  2.2564255e-02, -3.6395919e-02]], dtype=float32), array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=float32), array([[-0.15994486,  0.12850274,  0.20690738, ..., -0.12764353,
+        -0.12513085,  0.17876603],
+       [-0.16744696, -0.14678976,  0.10427798, ...,  0.18214561,
+        -0.10644878, -0.10075974],
+       [-0.16760087, -0.12402312,  0.03605303, ...,  0.09762068,
+         0.10769297,  0.11767681],
+       ...,
+       [ 0.04954119, -0.04040726, -0.16813613, ..., -0.17872217,
+         0.13249688,  0.199766  ],
+       [-0.04335538, -0.07986309,  0.19799776, ..., -0.07466894,
+        -0.13899764, -0.17338565],
+       [ 0.06883435, -0.14406446, -0.03219494, ..., -0.1900581 ,
+        -0.09216096,  0.12376313]], dtype=float32), array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=float32)] and config {}
+2024-08-28 13:04:31,115 - logging_configuration - MainThread - INFO - Client ID 8
+2024-08-28 13:04:31,527 - logging_configuration - MainThread - INFO - Saved the model into model_in and the weights of model are [array([[-6.9377661e-02,  6.6963740e-02,  6.4246275e-02, ...,
+         5.0467215e-02, -4.2079348e-02, -5.9390470e-02],
+       [-5.9706718e-04, -7.7803567e-02,  3.8579851e-04, ...,
+        -7.8919426e-02,  3.5737388e-02,  5.9197247e-03],
+       [ 3.8588710e-02,  2.9766358e-02,  1.8125422e-02, ...,
+        -4.9047999e-02, -4.6841346e-02,  1.9728839e-02],
+       ...,
+       [ 1.4080107e-04, -2.9911224e-02,  3.1977892e-02, ...,
+        -5.2752253e-02, -5.9487261e-02,  2.7142234e-02],
+       [ 4.1525140e-03, -5.9832603e-02, -5.8591008e-02, ...,
+        -9.3981624e-05, -7.1322009e-02, -1.2722418e-02],
+       [-6.1808590e-02,  1.9769251e-02, -7.8681529e-02, ...,
+         8.0479182e-02,  2.2564255e-02, -3.6395919e-02]], dtype=float32), array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=float32), array([[-0.15994486,  0.12850274,  0.20690738, ..., -0.12764353,
+        -0.12513085,  0.17876603],
+       [-0.16744696, -0.14678976,  0.10427798, ...,  0.18214561,
+        -0.10644878, -0.10075974],
+       [-0.16760087, -0.12402312,  0.03605303, ...,  0.09762068,
+         0.10769297,  0.11767681],
+       ...,
+       [ 0.04954119, -0.04040726, -0.16813613, ..., -0.17872217,
+         0.13249688,  0.199766  ],
+       [-0.04335538, -0.07986309,  0.19799776, ..., -0.07466894,
+        -0.13899764, -0.17338565],
+       [ 0.06883435, -0.14406446, -0.03219494, ..., -0.1900581 ,
+        -0.09216096,  0.12376313]], dtype=float32), array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=float32)] and parameters [array([[-6.9377661e-02,  6.6963740e-02,  6.4246275e-02, ...,
+         5.0467215e-02, -4.2079348e-02, -5.9390470e-02],
+       [-5.9706718e-04, -7.7803567e-02,  3.8579851e-04, ...,
+        -7.8919426e-02,  3.5737388e-02,  5.9197247e-03],
+       [ 3.8588710e-02,  2.9766358e-02,  1.8125422e-02, ...,
+        -4.9047999e-02, -4.6841346e-02,  1.9728839e-02],
+       ...,
+       [ 1.4080107e-04, -2.9911224e-02,  3.1977892e-02, ...,
+        -5.2752253e-02, -5.9487261e-02,  2.7142234e-02],
+       [ 4.1525140e-03, -5.9832603e-02, -5.8591008e-02, ...,
+        -9.3981624e-05, -7.1322009e-02, -1.2722418e-02],
+       [-6.1808590e-02,  1.9769251e-02, -7.8681529e-02, ...,
+         8.0479182e-02,  2.2564255e-02, -3.6395919e-02]], dtype=float32), array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=float32), array([[-0.15994486,  0.12850274,  0.20690738, ..., -0.12764353,
+        -0.12513085,  0.17876603],
+       [-0.16744696, -0.14678976,  0.10427798, ...,  0.18214561,
+        -0.10644878, -0.10075974],
+       [-0.16760087, -0.12402312,  0.03605303, ...,  0.09762068,
+         0.10769297,  0.11767681],
+       ...,
+       [ 0.04954119, -0.04040726, -0.16813613, ..., -0.17872217,
+         0.13249688,  0.199766  ],
+       [-0.04335538, -0.07986309,  0.19799776, ..., -0.07466894,
+        -0.13899764, -0.17338565],
+       [ 0.06883435, -0.14406446, -0.03219494, ..., -0.1900581 ,
+        -0.09216096,  0.12376313]], dtype=float32), array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=float32)]
+2024-08-28 13:04:31,527 - logging_configuration - MainThread - INFO - Initiating the training task from mlcube.py
+2024-08-28 13:04:31,527 - logging_configuration - MainThread - INFO - Created log dir fot training logs /home/sunlab/flower/quickstart-mlcube/workspaces/8/train_logs
+2024-08-28 13:14:01,205 - logging_configuration - MainThread - INFO - Download Directory created to store the data /home/sunlab/flower/quickstart-mlcube/workspaces/8/download_logs
+2024-08-28 13:14:01,205 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 13:14:01,205 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz)
+2024-08-28 13:14:01,206 - logging_configuration - MainThread - INFO - MNIST file already exists
+2024-08-28 13:14:01,216 - flwr - MainThread - INFO - 
+2024-08-28 13:14:01,216 - flwr - MainThread - INFO - Received: train message 6adc376f-9aa9-4227-8814-d627f59b86d9
+2024-08-28 13:14:01,218 - logging_configuration - MainThread - INFO - Fit method parameters  or initial parameters shared by server [array([[-0.01711304,  0.05078752, -0.05577146, ..., -0.07276902,
+        -0.05914772, -0.03034336],
+       [ 0.01896037,  0.04273932,  0.01586653, ..., -0.01970478,
+        -0.06231425,  0.07624153],
+       [ 0.0667379 ,  0.06773689, -0.06886832, ...,  0.01337435,
+         0.04915238,  0.01545498],
+       ...,
+       [ 0.01131587,  0.08096197, -0.02435829, ..., -0.07787322,
+        -0.07643484,  0.07383127],
+       [-0.04399639, -0.0197726 ,  0.00752267, ...,  0.01790392,
+        -0.00401492, -0.01226406],
+       [-0.0494284 , -0.06689822, -0.00604374, ..., -0.06171729,
+        -0.01287443,  0.03608245]], dtype=float32), array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=float32), array([[ 0.05266084, -0.13831124,  0.08733715, ...,  0.07552819,
+         0.20803706,  0.08880927],
+       [ 0.01423308, -0.18257329, -0.06898965, ...,  0.01797912,
+        -0.00095972,  0.03806713],
+       [-0.01847993, -0.09403288,  0.15488435, ...,  0.1176282 ,
+         0.12702464,  0.07387413],
+       ...,
+       [-0.14328071,  0.05138896,  0.06088613, ..., -0.18018186,
+        -0.05353481,  0.20166506],
+       [ 0.11662318, -0.13926192,  0.01269479, ...,  0.08815835,
+         0.1387514 , -0.01950692],
+       [-0.03801438,  0.14369555,  0.15272294, ...,  0.11308481,
+         0.09503968, -0.06243724]], dtype=float32), array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=float32)] and config {}
+2024-08-28 13:14:01,218 - logging_configuration - MainThread - INFO - Client ID 8
+2024-08-28 13:14:01,647 - logging_configuration - MainThread - INFO - Saved the model into model_in and the weights of model are [array([[-0.01711304,  0.05078752, -0.05577146, ..., -0.07276902,
+        -0.05914772, -0.03034336],
+       [ 0.01896037,  0.04273932,  0.01586653, ..., -0.01970478,
+        -0.06231425,  0.07624153],
+       [ 0.0667379 ,  0.06773689, -0.06886832, ...,  0.01337435,
+         0.04915238,  0.01545498],
+       ...,
+       [ 0.01131587,  0.08096197, -0.02435829, ..., -0.07787322,
+        -0.07643484,  0.07383127],
+       [-0.04399639, -0.0197726 ,  0.00752267, ...,  0.01790392,
+        -0.00401492, -0.01226406],
+       [-0.0494284 , -0.06689822, -0.00604374, ..., -0.06171729,
+        -0.01287443,  0.03608245]], dtype=float32), array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=float32), array([[ 0.05266084, -0.13831124,  0.08733715, ...,  0.07552819,
+         0.20803706,  0.08880927],
+       [ 0.01423308, -0.18257329, -0.06898965, ...,  0.01797912,
+        -0.00095972,  0.03806713],
+       [-0.01847993, -0.09403288,  0.15488435, ...,  0.1176282 ,
+         0.12702464,  0.07387413],
+       ...,
+       [-0.14328071,  0.05138896,  0.06088613, ..., -0.18018186,
+        -0.05353481,  0.20166506],
+       [ 0.11662318, -0.13926192,  0.01269479, ...,  0.08815835,
+         0.1387514 , -0.01950692],
+       [-0.03801438,  0.14369555,  0.15272294, ...,  0.11308481,
+         0.09503968, -0.06243724]], dtype=float32), array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=float32)] and parameters [array([[-0.01711304,  0.05078752, -0.05577146, ..., -0.07276902,
+        -0.05914772, -0.03034336],
+       [ 0.01896037,  0.04273932,  0.01586653, ..., -0.01970478,
+        -0.06231425,  0.07624153],
+       [ 0.0667379 ,  0.06773689, -0.06886832, ...,  0.01337435,
+         0.04915238,  0.01545498],
+       ...,
+       [ 0.01131587,  0.08096197, -0.02435829, ..., -0.07787322,
+        -0.07643484,  0.07383127],
+       [-0.04399639, -0.0197726 ,  0.00752267, ...,  0.01790392,
+        -0.00401492, -0.01226406],
+       [-0.0494284 , -0.06689822, -0.00604374, ..., -0.06171729,
+        -0.01287443,  0.03608245]], dtype=float32), array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=float32), array([[ 0.05266084, -0.13831124,  0.08733715, ...,  0.07552819,
+         0.20803706,  0.08880927],
+       [ 0.01423308, -0.18257329, -0.06898965, ...,  0.01797912,
+        -0.00095972,  0.03806713],
+       [-0.01847993, -0.09403288,  0.15488435, ...,  0.1176282 ,
+         0.12702464,  0.07387413],
+       ...,
+       [-0.14328071,  0.05138896,  0.06088613, ..., -0.18018186,
+        -0.05353481,  0.20166506],
+       [ 0.11662318, -0.13926192,  0.01269479, ...,  0.08815835,
+         0.1387514 , -0.01950692],
+       [-0.03801438,  0.14369555,  0.15272294, ...,  0.11308481,
+         0.09503968, -0.06243724]], dtype=float32), array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.], dtype=float32)]
+2024-08-28 13:14:01,647 - logging_configuration - MainThread - INFO - Initiating the training task from mlcube.py
+2024-08-28 13:14:01,648 - logging_configuration - MainThread - INFO - Created log dir fot training logs /home/sunlab/flower/quickstart-mlcube/workspaces/8/train_logs
+2024-08-28 17:51:13,730 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 17:51:13,730 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz)
+2024-08-28 17:51:13,738 - flwr - MainThread - INFO - 
+2024-08-28 17:51:13,738 - flwr - MainThread - INFO - Received: train message 707089f0-ea1d-42ef-8886-9e0e365173a5
+2024-08-28 18:03:44,762 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 18:03:44,762 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz)
+2024-08-28 18:03:44,772 - flwr - MainThread - INFO - 
+2024-08-28 18:03:44,772 - flwr - MainThread - INFO - Received: train message 4f25e2ee-dd47-4430-a137-d3d2c76f7909
+2024-08-28 18:25:47,412 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 18:25:47,413 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz)
+2024-08-28 18:25:47,426 - flwr - MainThread - INFO - 
+2024-08-28 18:25:47,426 - flwr - MainThread - INFO - Received: train message 83def0f2-bfa5-4f42-a51b-a80ad2c3f3ad
+2024-08-28 18:25:47,540 - flwr - MainThread - ERROR - Client raised an exception.
+Traceback (most recent call last):
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/app.py", line 426, in _start_client_internal
+    reply_message = client_app(message=message, context=context)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client_app.py", line 143, in __call__
+    return self._call(message, context)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client_app.py", line 126, in ffn
+    out_message = handle_legacy_message_from_msgtype(
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/message_handler/message_handler.py", line 129, in handle_legacy_message_from_msgtype
+    fit_res = maybe_call_fit(
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client.py", line 234, in maybe_call_fit
+    return client.fit(fit_ins)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/numpy_client.py", line 238, in _fit
+    results = self.numpy_client.fit(parameters, ins.config)  # type: ignore
+  File "/home/sunlab/flower/quickstart-mlcube/client.py", line 26, in fit
+    mlcube.save_parameteras_as_model(self.workspace, parameters)
+  File "/home/sunlab/flower/quickstart-mlcube/mlcube_utils.py", line 52, in save_parameteras_as_model
+    model.save(filepath)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/keras/src/saving/saving_api.py", line 106, in save_model
+    raise ValueError(
+ValueError: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=/home/sunlab/flower/quickstart-mlcube/workspaces/8/model_in/mnist_model.
+2024-08-28 18:27:45,827 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 18:27:45,827 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz)
+2024-08-28 18:27:45,837 - flwr - MainThread - INFO - 
+2024-08-28 18:27:45,838 - flwr - MainThread - INFO - Received: train message cb8ee2c2-2046-4d50-9cf2-9b12ebdedc2d
+2024-08-28 18:27:45,947 - flwr - MainThread - ERROR - Client raised an exception.
+Traceback (most recent call last):
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/app.py", line 426, in _start_client_internal
+    reply_message = client_app(message=message, context=context)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client_app.py", line 143, in __call__
+    return self._call(message, context)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client_app.py", line 126, in ffn
+    out_message = handle_legacy_message_from_msgtype(
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/message_handler/message_handler.py", line 129, in handle_legacy_message_from_msgtype
+    fit_res = maybe_call_fit(
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client.py", line 234, in maybe_call_fit
+    return client.fit(fit_ins)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/numpy_client.py", line 238, in _fit
+    results = self.numpy_client.fit(parameters, ins.config)  # type: ignore
+  File "/home/sunlab/flower/quickstart-mlcube/client.py", line 26, in fit
+    mlcube.save_parameteras_as_model(self.workspace, parameters)
+  File "/home/sunlab/flower/quickstart-mlcube/mlcube_utils.py", line 52, in save_parameteras_as_model
+    model.save(filepath)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/keras/src/saving/saving_api.py", line 106, in save_model
+    raise ValueError(
+ValueError: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=/home/sunlab/flower/quickstart-mlcube/workspaces/8/model_in/mnist_model.
+2024-08-28 18:29:10,436 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 18:29:10,436 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz)
+2024-08-28 18:29:10,447 - flwr - MainThread - INFO - 
+2024-08-28 18:29:10,447 - flwr - MainThread - INFO - Received: evaluate message 4941aa40-70f4-4cf5-9892-80c29cb73d2d
+2024-08-28 18:29:40,420 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 18:29:40,421 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz)
+2024-08-28 18:29:40,433 - flwr - MainThread - INFO - 
+2024-08-28 18:29:40,433 - flwr - MainThread - INFO - Received: train message bdba44db-db5b-456e-9b45-1b9343453a64
+2024-08-28 18:31:08,507 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 18:31:08,507 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz)
+2024-08-28 18:31:08,518 - flwr - MainThread - INFO - 
+2024-08-28 18:31:08,518 - flwr - MainThread - INFO - Received: train message b2137d61-63d4-4459-9b14-cf9524926b85
+2024-08-28 18:43:08,162 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 18:43:08,162 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz)
+2024-08-28 18:43:08,172 - flwr - MainThread - INFO - 
+2024-08-28 18:43:08,172 - flwr - MainThread - INFO - Received: train message 1afb3fa9-84a6-483b-8524-2cecc476b127
+2024-08-28 18:59:49,104 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 18:59:49,104 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz)
+2024-08-28 18:59:49,116 - flwr - MainThread - INFO - 
+2024-08-28 18:59:49,116 - flwr - MainThread - INFO - Received: train message e9f9c673-f351-497d-81a0-d26e7d6943a4
+2024-08-28 19:20:18,951 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 19:20:18,951 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/8/data/mnist.npz)
+2024-08-28 19:20:18,960 - flwr - MainThread - INFO - 
+2024-08-28 19:20:18,960 - flwr - MainThread - INFO - Received: train message 4e68b17c-2855-498e-9c07-8ee2723ff552

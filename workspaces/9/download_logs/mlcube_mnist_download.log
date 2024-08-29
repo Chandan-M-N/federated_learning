@@ -1,0 +1,28 @@
+2024-08-28 19:53:20,233 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 19:53:20,523 - dev.mnist - MainThread - INFO - MNIST dataset has been downloaded.
+2024-08-28 19:53:20,531 - flwr - MainThread - INFO - 
+2024-08-28 19:53:20,531 - flwr - MainThread - INFO - Received: train message 17d0c199-63b0-4999-b329-7b0014acbfdc
+2024-08-28 19:54:31,649 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 19:54:31,649 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz)
+2024-08-28 19:54:31,658 - flwr - MainThread - INFO - 
+2024-08-28 19:54:31,658 - flwr - MainThread - INFO - Received: train message ba5469fa-cf24-4672-a285-1c73e7c59a96
+2024-08-28 19:56:56,296 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 19:56:56,296 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz)
+2024-08-28 19:56:56,306 - flwr - MainThread - INFO - 
+2024-08-28 19:56:56,306 - flwr - MainThread - INFO - Received: train message 03db6010-2d4f-4e01-a779-5909a560c7b0
+2024-08-28 19:58:45,405 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 19:58:45,405 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz)
+2024-08-28 19:58:45,414 - flwr - MainThread - INFO - 
+2024-08-28 19:58:45,414 - flwr - MainThread - INFO - Received: train message e2bf60aa-4f64-408f-b625-66d58cc9111d
+2024-08-28 19:59:49,567 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 19:59:49,567 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz)
+2024-08-28 19:59:49,575 - flwr - MainThread - INFO - 
+2024-08-28 19:59:49,575 - flwr - MainThread - INFO - Received: train message 82a67a13-d42b-4ae3-aa2d-8585f5f560d8
+2024-08-28 20:00:59,378 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 20:00:59,378 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz)
+2024-08-28 20:00:59,387 - flwr - MainThread - INFO - 
+2024-08-28 20:00:59,387 - flwr - MainThread - INFO - Received: train message 9e35a43e-09bc-4867-ba15-f9ae521e72c6
+2024-08-28 20:11:05,703 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 20:11:05,703 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz)
+2024-08-28 20:11:05,712 - flwr - MainThread - INFO - 
+2024-08-28 20:11:05,712 - flwr - MainThread - INFO - Received: train message 2efa7b11-d2a2-4300-989b-a2d77245f73a

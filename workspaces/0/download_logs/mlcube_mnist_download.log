@@ -1,0 +1,7 @@
+2024-08-23 15:51:44,414 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 15:51:44,747 - __main__ - MainThread - INFO - MNIST dataset has been downloaded.
+2024-08-23 15:51:44,747 - __main__ - MainThread - INFO - The 'Task.DownloadData' task has been completed.
+2024-08-23 15:58:08,104 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 15:58:08,105 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 15:59:07,356 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 15:59:07,356 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)

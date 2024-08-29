@@ -1,0 +1,76 @@
+2024-08-28 19:53:20,616 - dev.mnist - MainThread - INFO - Parameters have been read (/home/sunlab/flower/quickstart-mlcube/workspaces/9/parameters/default.parameters.yaml).
+2024-08-28 19:53:20,931 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz).
+2024-08-28 19:53:20,931 - dev.mnist - MainThread - ERROR - File format not supported: filepath=/home/sunlab/flower/quickstart-mlcube/workspaces/9/model_in/mnist_model. Keras 3 only supports V3 `.keras` files and legacy H5 format files (`.h5` extension). Note that the legacy SavedModel format is not supported by `load_model()` in Keras 3. In order to reload a TensorFlow SavedModel as an inference-only layer in Keras 3, use `keras.layers.TFSMLayer(/home/sunlab/flower/quickstart-mlcube/workspaces/9/model_in/mnist_model, call_endpoint='serving_default')` (note that your `call_endpoint` might have a different name).
+2024-08-28 19:54:31,743 - dev.mnist - MainThread - INFO - Parameters have been read (/home/sunlab/flower/quickstart-mlcube/workspaces/9/parameters/default.parameters.yaml).
+2024-08-28 19:54:32,072 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz).
+2024-08-28 19:54:32,095 - dev.mnist - MainThread - INFO - Model has been built.
+2024-08-28 19:54:32,100 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-08-28 19:54:34,674 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-08-28 19:54:34,674 - dev.mnist - MainThread - ERROR - Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=/home/sunlab/flower/quickstart-mlcube/workspaces/9/model/mnist_model.
+2024-08-28 19:56:56,396 - dev.mnist - MainThread - INFO - Parameters have been read (/home/sunlab/flower/quickstart-mlcube/workspaces/9/parameters/default.parameters.yaml).
+2024-08-28 19:56:56,634 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz).
+2024-08-28 19:56:56,657 - dev.mnist - MainThread - INFO - Model has been built.
+2024-08-28 19:56:56,662 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-08-28 19:56:59,183 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-08-28 19:56:59,201 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-08-28 19:56:59,202 - flwr - MainThread - ERROR - Client raised an exception.
+Traceback (most recent call last):
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/app.py", line 426, in _start_client_internal
+    reply_message = client_app(message=message, context=context)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client_app.py", line 143, in __call__
+    return self._call(message, context)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client_app.py", line 126, in ffn
+    out_message = handle_legacy_message_from_msgtype(
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/message_handler/message_handler.py", line 129, in handle_legacy_message_from_msgtype
+    fit_res = maybe_call_fit(
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client.py", line 234, in maybe_call_fit
+    return client.fit(fit_ins)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/numpy_client.py", line 238, in _fit
+    results = self.numpy_client.fit(parameters, ins.config)  # type: ignore
+  File "/home/sunlab/flower/quickstart-mlcube/client.py", line 29, in fit
+    parameters = mlcube.load_model_parameters(self.workspace)
+  File "/home/sunlab/flower/quickstart-mlcube/mlcube_utils.py", line 63, in load_model_parameters
+    filepath = workspace_path(workspace, "model/mnist_model.keras", False)
+  File "/home/sunlab/flower/quickstart-mlcube/mlcube_utils.py", line 25, in workspace_path
+    create_directory(dir_path)
+  File "/home/sunlab/flower/quickstart-mlcube/mlcube_utils.py", line 18, in create_directory
+    os.makedirs(path, exist_ok=True)
+  File "/usr/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/sunlab/flower/quickstart-mlcube/workspaces/9/model/mnist_model.keras'
+2024-08-28 19:58:45,504 - dev.mnist - MainThread - INFO - Parameters have been read (/home/sunlab/flower/quickstart-mlcube/workspaces/9/parameters/default.parameters.yaml).
+2024-08-28 19:58:45,729 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz).
+2024-08-28 19:58:45,752 - dev.mnist - MainThread - INFO - Model has been built.
+2024-08-28 19:58:45,756 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-08-28 19:58:48,258 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-08-28 19:58:48,277 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-08-28 19:58:48,308 - flwr - MainThread - INFO - Sent reply
+2024-08-28 19:58:48,313 - flwr - MainThread - INFO - 
+2024-08-28 19:58:48,314 - flwr - MainThread - INFO - Received: evaluate message 71a39d62-ae07-4d29-b27d-de151bd70943
+2024-08-28 19:59:49,666 - dev.mnist - MainThread - INFO - Parameters have been read (/home/sunlab/flower/quickstart-mlcube/workspaces/9/parameters/default.parameters.yaml).
+2024-08-28 19:59:49,891 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz).
+2024-08-28 19:59:49,914 - dev.mnist - MainThread - INFO - Model has been built.
+2024-08-28 19:59:49,918 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-08-28 19:59:52,422 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-08-28 19:59:52,439 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-08-28 19:59:52,470 - flwr - MainThread - INFO - Sent reply
+2024-08-28 19:59:52,475 - flwr - MainThread - INFO - 
+2024-08-28 19:59:52,475 - flwr - MainThread - INFO - Received: evaluate message 7c8699eb-6f1e-4ab6-9be7-86145d182fb8
+2024-08-28 20:00:59,476 - dev.mnist - MainThread - INFO - Parameters have been read (/home/sunlab/flower/quickstart-mlcube/workspaces/9/parameters/default.parameters.yaml).
+2024-08-28 20:00:59,698 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz).
+2024-08-28 20:00:59,719 - dev.mnist - MainThread - INFO - Model has been built.
+2024-08-28 20:00:59,724 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-08-28 20:01:02,226 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-08-28 20:01:02,252 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-08-28 20:01:02,283 - flwr - MainThread - INFO - Sent reply
+2024-08-28 20:01:02,289 - flwr - MainThread - INFO - 
+2024-08-28 20:01:02,289 - flwr - MainThread - INFO - Received: evaluate message 8bb30894-d622-4fa4-a28e-275baf5004f8
+2024-08-28 20:11:05,814 - dev.mnist - MainThread - INFO - Parameters have been read (/home/sunlab/flower/quickstart-mlcube/workspaces/9/parameters/default.parameters.yaml).
+2024-08-28 20:11:06,037 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz).
+2024-08-28 20:11:06,066 - dev.mnist - MainThread - INFO - Model has been built.
+2024-08-28 20:11:06,068 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-08-28 20:11:24,470 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-08-28 20:11:24,481 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-08-28 20:11:24,513 - flwr - MainThread - INFO - Sent reply
+2024-08-28 20:11:24,519 - flwr - MainThread - INFO - 
+2024-08-28 20:11:24,519 - flwr - MainThread - INFO - Received: evaluate message 529f65a6-b28f-4282-a5f6-fc1d3232f121

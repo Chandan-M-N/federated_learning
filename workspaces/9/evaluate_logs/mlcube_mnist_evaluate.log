@@ -1,0 +1,20 @@
+2024-08-28 19:58:48,336 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 1, 'batch_size': 32}).
+2024-08-28 19:58:48,379 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz).
+2024-08-28 19:58:48,399 - dev.mnist - MainThread - ERROR - You must call `compile()` before using the model.
+2024-08-28 19:59:52,498 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 1, 'batch_size': 32}).
+2024-08-28 19:59:52,538 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz).
+2024-08-28 19:59:52,558 - dev.mnist - MainThread - ERROR - You must call `compile()` before using the model.
+2024-08-28 20:01:02,311 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 1, 'batch_size': 32}).
+2024-08-28 20:01:02,350 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz).
+2024-08-28 20:01:02,684 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-28 20:01:02,685 - flwr - MainThread - INFO - Sent reply
+2024-08-28 20:01:02,686 - flwr - MainThread - INFO - 
+2024-08-28 20:01:02,686 - flwr - MainThread - INFO - Received: reconnect message f6578b6c-6c95-4814-ac19-6e2da8fc3c68
+2024-08-28 20:01:02,688 - flwr - MainThread - INFO - Disconnect and shut down
+2024-08-28 20:11:24,544 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 10, 'batch_size': 32}).
+2024-08-28 20:11:24,584 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/9/data/mnist.npz).
+2024-08-28 20:11:24,929 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-28 20:11:24,929 - flwr - MainThread - INFO - Sent reply
+2024-08-28 20:11:24,930 - flwr - MainThread - INFO - 
+2024-08-28 20:11:24,930 - flwr - MainThread - INFO - Received: reconnect message bce5d84b-7e6a-4bb5-b787-5ef737fc612d
+2024-08-28 20:11:24,932 - flwr - MainThread - INFO - Disconnect and shut down

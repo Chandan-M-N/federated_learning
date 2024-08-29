@@ -1,0 +1,7 @@
+2024-08-27 21:27:55,731 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 1, 'batch_size': 32}).
+2024-08-27 21:27:55,771 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/5/data/mnist.npz).
+2024-08-27 21:27:56,177 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-27 21:27:56,178 - flwr - MainThread - INFO - Sent reply
+2024-08-27 21:27:56,179 - flwr - MainThread - INFO - 
+2024-08-27 21:27:56,179 - flwr - MainThread - INFO - Received: reconnect message 7198424c-b875-4b96-8651-a28a89a6533f
+2024-08-27 21:27:56,180 - flwr - MainThread - INFO - Disconnect and shut down

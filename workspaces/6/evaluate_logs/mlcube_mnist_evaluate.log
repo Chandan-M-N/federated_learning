@@ -1,0 +1,14 @@
+2024-08-28 13:00:17,943 - logging_configuration - MainThread - INFO - Directory for evaluate logs created
+2024-08-28 13:00:17,943 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 1, 'batch_size': 32}).
+2024-08-28 13:00:17,944 - logging_configuration - MainThread - INFO - Parameters for evaluate fetched from yaml file {'optimizer': 'adam', 'epochs': 1, 'batch_size': 32}
+2024-08-28 13:00:17,982 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/6/data/mnist.npz).
+2024-08-28 13:00:17,982 - logging_configuration - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/6/data/mnist.npz).
+2024-08-28 13:00:18,376 - logging_configuration - MainThread - INFO - Results after evaluating {'loss': '0.1389039158821106', 'accuracy': '0.10010000318288803'}
+2024-08-28 13:00:18,376 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-28 13:00:18,376 - logging_configuration - MainThread - INFO - Metrics after evaluate {'loss': 0.1389039158821106, 'accuracy': 0.10010000318288803, 'num_examples': 1}
+2024-08-28 13:00:18,376 - logging_configuration - MainThread - INFO - Config shared to server after evaluate {'loss': 0.1389039158821106, 'accuracy': 0.10010000318288803, 'num_examples': 1}
+2024-08-28 13:00:18,376 - flwr - MainThread - INFO - Sent reply
+2024-08-28 13:00:18,378 - flwr - MainThread - INFO - 
+2024-08-28 13:00:18,378 - flwr - MainThread - INFO - Received: reconnect message 6dd85f7a-7ed8-422f-bf7f-ca4b0609d4f8
+2024-08-28 13:00:18,625 - flwr - MainThread - INFO - Disconnect and shut down
+2024-08-28 13:00:18,625 - logging_configuration - MainThread - INFO - Started the Client 6

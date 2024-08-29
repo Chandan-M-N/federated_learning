@@ -1,0 +1,24 @@
+2024-08-26 19:14:05,902 - tensorflow - MainThread - INFO - Assets written to: /home/sunlab/flower/quickstart-mlcube/workspaces/4/model/mnist_model/assets
+2024-08-26 19:14:06,206 - tensorflow - MainThread - INFO - Assets written to: /home/sunlab/flower/quickstart-mlcube/workspaces/4/model_in/mnist_model/assets
+2024-08-26 19:17:28,151 - tensorflow - MainThread - INFO - Assets written to: /home/sunlab/flower/quickstart-mlcube/workspaces/4/model/mnist_model/assets
+2024-08-26 19:17:28,455 - tensorflow - MainThread - INFO - Assets written to: /home/sunlab/flower/quickstart-mlcube/workspaces/4/model_in/mnist_model/assets
+2024-08-26 19:53:14,446 - tensorflow - MainThread - INFO - Assets written to: /home/sunlab/flower/quickstart-mlcube/workspaces/4/model/mnist_model/assets
+2024-08-26 19:53:14,748 - tensorflow - MainThread - INFO - Assets written to: /home/sunlab/flower/quickstart-mlcube/workspaces/4/model_in/mnist_model/assets
+2024-08-26 20:06:26,211 - dev.mnist - MainThread - INFO - Parameters have been read (/home/sunlab/flower/quickstart-mlcube/workspaces/4/parameters/default.parameters.yaml).
+2024-08-26 20:06:26,446 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/4/data/mnist.npz).
+2024-08-26 20:06:26,530 - dev.mnist - MainThread - INFO - Model has been built.
+2024-08-26 20:06:26,533 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-08-26 20:06:28,947 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-08-26 20:06:29,160 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-08-26 20:06:29,254 - flwr - MainThread - INFO - Sent reply
+2024-08-26 20:06:29,259 - flwr - MainThread - INFO - 
+2024-08-26 20:06:29,259 - flwr - MainThread - INFO - Received: evaluate message 724ee114-435f-4168-818b-37a12d369265
+2024-08-27 21:22:09,321 - dev.mnist - MainThread - INFO - Parameters have been read (/home/sunlab/flower/quickstart-mlcube/workspaces/4/parameters/default.parameters.yaml).
+2024-08-27 21:22:09,554 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/4/data/mnist.npz).
+2024-08-27 21:22:09,642 - dev.mnist - MainThread - INFO - Model has been built.
+2024-08-27 21:22:09,645 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-08-27 21:22:12,054 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-08-27 21:22:12,268 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-08-27 21:22:12,362 - flwr - MainThread - INFO - Sent reply
+2024-08-27 21:22:12,367 - flwr - MainThread - INFO - 
+2024-08-27 21:22:12,367 - flwr - MainThread - INFO - Received: evaluate message 9b429bb6-d107-49c5-a6e6-3e80cdba58ca

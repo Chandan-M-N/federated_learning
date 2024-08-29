@@ -1,0 +1,119 @@
+2024-08-23 15:46:55,667 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 15:46:56,396 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 15:46:56,527 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 15:46:56,538 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 15:47:02,786 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 15:47:03,301 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 15:47:03,323 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 15:47:13,437 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 15:47:13,724 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 15:47:14,086 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 15:47:14,090 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 15:47:20,033 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 15:47:20,412 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 15:47:20,422 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 15:47:28,695 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 15:47:28,966 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 15:47:29,217 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 15:47:29,226 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 15:47:35,393 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 15:47:35,773 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 15:47:35,783 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 15:59:17,699 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 15:59:17,969 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 15:59:18,297 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 15:59:18,305 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 15:59:26,351 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 15:59:26,849 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 15:59:26,860 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 16:08:16,416 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 16:08:16,830 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 16:08:17,031 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 16:08:17,035 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 16:08:20,788 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 16:08:21,092 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 16:08:21,100 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 16:10:10,357 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 16:10:10,574 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 16:10:10,765 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 16:10:10,769 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 16:10:14,225 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 16:10:14,527 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 16:10:14,535 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 16:13:07,114 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 16:13:07,329 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 16:13:07,518 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 16:13:07,521 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 16:13:10,901 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 16:13:11,210 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 16:13:11,218 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 16:15:31,927 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 16:15:32,427 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 16:15:32,752 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 16:15:32,758 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 16:15:38,272 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 16:15:38,641 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 16:15:38,651 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 16:34:09,269 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 16:34:09,690 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 16:34:09,892 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 16:34:09,895 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 16:34:13,654 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 16:34:13,972 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 16:34:13,980 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 16:35:46,773 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 16:35:46,991 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 16:35:47,178 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 16:35:47,182 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 16:35:50,596 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 16:35:50,898 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 16:35:50,906 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 16:38:42,004 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 16:38:42,221 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 16:38:42,409 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 16:38:42,413 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 16:38:45,846 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 16:38:46,165 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 16:38:46,173 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 16:39:42,568 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 16:39:42,786 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 16:39:42,973 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 16:39:42,977 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 16:39:46,364 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 16:39:46,674 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 16:39:46,682 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 16:41:52,976 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 16:41:53,397 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 16:41:53,711 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 16:41:53,717 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 16:41:59,974 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 16:42:00,365 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 16:42:00,373 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 16:53:35,296 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 16:53:35,725 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 16:53:35,926 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 16:53:35,930 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 16:53:39,685 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 16:53:39,998 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 16:53:40,006 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 16:54:22,688 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 16:54:22,916 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 16:54:23,107 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 16:54:23,111 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 16:54:26,615 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 16:54:26,917 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 16:54:26,925 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 16:56:00,779 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 16:56:01,323 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 16:56:01,548 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 16:56:01,552 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 16:56:05,964 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 16:56:06,312 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 16:56:06,325 - __main__ - MainThread - INFO - Model has been saved.
+2024-08-23 16:57:04,283 - __main__ - MainThread - INFO - Parameters have been read (/mlcube_io1/default.parameters.yaml).
+2024-08-23 16:57:04,641 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 16:57:04,907 - __main__ - MainThread - INFO - Model has been built.
+2024-08-23 16:57:04,912 - __main__ - MainThread - INFO - Model has been compiled.
+2024-08-23 16:57:10,874 - __main__ - MainThread - INFO - Model has been trained.
+2024-08-23 16:57:11,437 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
+2024-08-23 16:57:11,470 - __main__ - MainThread - INFO - Model has been saved.

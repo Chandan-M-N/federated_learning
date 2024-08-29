@@ -1,0 +1,6 @@
+2024-08-23 17:33:40,756 - __main__ - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 1, 'batch_size': 32}).
+2024-08-23 17:33:40,796 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 17:33:41,446 - __main__ - MainThread - INFO - Model has been evaluated.
+2024-08-23 17:41:02,758 - __main__ - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 1, 'batch_size': 32}).
+2024-08-23 17:41:02,804 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
+2024-08-23 17:41:03,611 - __main__ - MainThread - INFO - Model has been evaluated.

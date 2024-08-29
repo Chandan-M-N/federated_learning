@@ -1,0 +1,149 @@
+2024-08-23 15:46:25,467 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 15:46:25,767 - __main__ - MainThread - INFO - MNIST dataset has been downloaded.
+2024-08-23 15:46:25,767 - __main__ - MainThread - INFO - The 'Task.DownloadData' task has been completed.
+2024-08-23 15:51:44,480 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 15:51:44,480 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 15:57:13,246 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 15:57:13,247 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 15:59:01,477 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 15:59:01,478 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 17:49:44,789 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 17:49:44,790 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 17:50:30,216 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 17:50:30,217 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 16:48:03,701 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 16:48:03,702 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 16:48:42,189 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 16:48:42,189 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 16:49:21,022 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 16:49:21,022 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 16:49:50,707 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 16:49:50,708 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 16:54:34,751 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 16:54:34,751 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 16:56:29,661 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 16:56:29,661 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 17:01:06,233 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 17:01:06,233 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 17:03:03,999 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 17:03:04,000 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 17:05:46,442 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 17:05:46,443 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 17:07:39,950 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 17:07:39,951 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 17:11:10,966 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 17:11:10,967 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 17:12:08,644 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 17:12:08,645 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 17:19:50,247 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 17:19:50,247 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 17:22:03,979 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 17:22:03,980 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 17:33:49,158 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 17:33:49,158 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 17:34:07,944 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 17:34:07,945 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-26 17:41:44,421 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-26 17:41:44,422 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-28 19:23:21,474 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 19:23:21,475 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/1/data/mnist.npz)
+2024-08-28 19:23:21,483 - flwr - MainThread - INFO - 
+2024-08-28 19:23:21,483 - flwr - MainThread - INFO - Received: train message 92cf3481-1f54-4579-98b9-6f2cfa6d09ee
+2024-08-28 19:38:09,885 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 19:38:09,885 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/1/data/mnist.npz)
+2024-08-28 19:38:09,892 - flwr - MainThread - INFO - 
+2024-08-28 19:38:09,892 - flwr - MainThread - INFO - Received: reconnect message a9b41fd4-f11f-4170-a636-251508c61d3f
+2024-08-28 19:38:09,896 - flwr - MainThread - INFO - Disconnect and shut down
+2024-08-28 19:39:21,343 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 19:39:21,343 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/1/data/mnist.npz)
+2024-08-28 19:39:21,352 - flwr - MainThread - INFO - 
+2024-08-28 19:39:21,352 - flwr - MainThread - INFO - Received: train message ad37c5b2-70d6-4b95-86ec-25f3a93fd992
+2024-08-28 19:41:58,131 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 19:41:58,131 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/1/data/mnist.npz)
+2024-08-28 19:41:58,138 - flwr - MainThread - INFO - 
+2024-08-28 19:41:58,139 - flwr - MainThread - INFO - Received: train message 7e696ae7-885e-4aa7-98a7-6e8320489444
+2024-08-28 19:43:01,134 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 19:43:01,134 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/1/data/mnist.npz)
+2024-08-28 19:43:01,142 - flwr - MainThread - INFO - 
+2024-08-28 19:43:01,142 - flwr - MainThread - INFO - Received: train message d9f3869c-6933-4bd9-80d5-fa46afe0f1d7
+2024-08-28 19:47:40,031 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 19:47:40,033 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/1/data/mnist.npz)
+2024-08-28 19:47:40,055 - flwr - MainThread - INFO - 
+2024-08-28 19:47:40,055 - flwr - MainThread - INFO - Received: train message f2f937e0-45d7-49c3-8862-8394f6ec20cf
+2024-08-28 19:47:40,140 - flwr - MainThread - ERROR - Client raised an exception.
+Traceback (most recent call last):
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/app.py", line 426, in _start_client_internal
+    reply_message = client_app(message=message, context=context)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client_app.py", line 143, in __call__
+    return self._call(message, context)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client_app.py", line 126, in ffn
+    out_message = handle_legacy_message_from_msgtype(
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/message_handler/message_handler.py", line 129, in handle_legacy_message_from_msgtype
+    fit_res = maybe_call_fit(
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client.py", line 234, in maybe_call_fit
+    return client.fit(fit_ins)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/numpy_client.py", line 238, in _fit
+    results = self.numpy_client.fit(parameters, ins.config)  # type: ignore
+  File "/home/sunlab/flower/quickstart-mlcube/client.py", line 26, in fit
+    mlcube.save_parameteras_as_model(self.workspace, parameters)
+  File "/home/sunlab/flower/quickstart-mlcube/mlcube_utils.py", line 54, in save_parameteras_as_model
+    model.save(filepath)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/keras/src/saving/saving_api.py", line 114, in save_model
+    raise ValueError(
+ValueError: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=/home/sunlab/flower/quickstart-mlcube/workspaces/1/model_in/mnist_model.
+2024-08-28 19:49:18,345 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 19:49:18,345 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/1/data/mnist.npz)
+2024-08-28 19:49:18,354 - flwr - MainThread - INFO - 
+2024-08-28 19:49:18,354 - flwr - MainThread - INFO - Received: train message 35567f10-ad10-4f19-8d81-da522b47c58b
+2024-08-28 19:49:18,432 - flwr - MainThread - ERROR - Client raised an exception.
+Traceback (most recent call last):
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/app.py", line 426, in _start_client_internal
+    reply_message = client_app(message=message, context=context)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client_app.py", line 143, in __call__
+    return self._call(message, context)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client_app.py", line 126, in ffn
+    out_message = handle_legacy_message_from_msgtype(
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/message_handler/message_handler.py", line 129, in handle_legacy_message_from_msgtype
+    fit_res = maybe_call_fit(
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client.py", line 234, in maybe_call_fit
+    return client.fit(fit_ins)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/numpy_client.py", line 238, in _fit
+    results = self.numpy_client.fit(parameters, ins.config)  # type: ignore
+  File "/home/sunlab/flower/quickstart-mlcube/client.py", line 26, in fit
+    mlcube.save_parameteras_as_model(self.workspace, parameters)
+  File "/home/sunlab/flower/quickstart-mlcube/mlcube_utils.py", line 54, in save_parameteras_as_model
+    model.save(filepath)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/keras/src/saving/saving_api.py", line 114, in save_model
+    raise ValueError(
+ValueError: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=/home/sunlab/flower/quickstart-mlcube/workspaces/1/model_in/mnist_model.
+2024-08-28 19:50:48,874 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-28 19:50:48,874 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/sunlab/flower/quickstart-mlcube/workspaces/1/data/mnist.npz)
+2024-08-28 19:50:48,883 - flwr - MainThread - INFO - 
+2024-08-28 19:50:48,883 - flwr - MainThread - INFO - Received: train message 024f5a39-e9e5-4169-8924-6b4e7f7b64a4
+2024-08-28 19:50:48,953 - flwr - MainThread - ERROR - Client raised an exception.
+Traceback (most recent call last):
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/app.py", line 426, in _start_client_internal
+    reply_message = client_app(message=message, context=context)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client_app.py", line 143, in __call__
+    return self._call(message, context)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client_app.py", line 126, in ffn
+    out_message = handle_legacy_message_from_msgtype(
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/message_handler/message_handler.py", line 129, in handle_legacy_message_from_msgtype
+    fit_res = maybe_call_fit(
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/client.py", line 234, in maybe_call_fit
+    return client.fit(fit_ins)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/flwr/client/numpy_client.py", line 238, in _fit
+    results = self.numpy_client.fit(parameters, ins.config)  # type: ignore
+  File "/home/sunlab/flower/quickstart-mlcube/client.py", line 26, in fit
+    mlcube.save_parameteras_as_model(self.workspace, parameters)
+  File "/home/sunlab/flower/quickstart-mlcube/mlcube_utils.py", line 54, in save_parameteras_as_model
+    model.save(filepath)
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/keras/src/saving/saving_lib.py", line 141, in save_model
+    with open(filepath, "wb") as f:
+IsADirectoryError: [Errno 21] Is a directory: '/home/sunlab/flower/quickstart-mlcube/workspaces/1/model_in/mnist_model.keras'

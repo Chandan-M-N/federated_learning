@@ -1,0 +1,35 @@
+2024-08-23 15:46:51,381 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 15:46:51,692 - __main__ - MainThread - INFO - MNIST dataset has been downloaded.
+2024-08-23 15:46:51,692 - __main__ - MainThread - INFO - The 'Task.DownloadData' task has been completed.
+2024-08-23 15:57:17,145 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 15:57:17,145 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 15:59:14,039 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 15:59:14,040 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 16:08:13,672 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 16:08:13,673 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 16:10:07,604 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 16:10:07,605 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 16:13:04,394 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 16:13:04,394 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 16:15:24,854 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 16:15:24,855 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 16:34:06,532 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 16:34:06,533 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 16:35:44,064 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 16:35:44,064 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 16:38:39,287 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 16:38:39,288 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 16:39:39,818 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 16:39:39,819 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 16:41:48,109 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 16:41:48,109 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 16:53:32,548 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 16:53:32,549 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 16:54:19,975 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 16:54:19,975 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 16:55:55,554 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 16:55:55,555 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 16:57:00,604 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 16:57:00,605 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)
+2024-08-23 17:13:35,216 - __main__ - MainThread - INFO - Starting 'download' task
+2024-08-23 17:13:35,216 - __main__ - MainThread - INFO - MNIST data has already been download (file exists: /mlcube_io0/mnist.npz)

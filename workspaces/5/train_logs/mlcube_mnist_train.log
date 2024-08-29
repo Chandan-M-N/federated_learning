@@ -1,0 +1,9 @@
+2024-08-27 21:27:52,420 - dev.mnist - MainThread - INFO - Parameters have been read (/home/sunlab/flower/quickstart-mlcube/workspaces/5/parameters/default.parameters.yaml).
+2024-08-27 21:27:52,646 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/5/data/mnist.npz).
+2024-08-27 21:27:52,733 - dev.mnist - MainThread - INFO - Model has been built.
+2024-08-27 21:27:52,736 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-08-27 21:27:55,201 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-08-27 21:27:55,419 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-08-27 21:27:55,517 - flwr - MainThread - INFO - Sent reply
+2024-08-27 21:27:55,522 - flwr - MainThread - INFO - 
+2024-08-27 21:27:55,522 - flwr - MainThread - INFO - Received: evaluate message 2f7c5d59-f94d-4257-bc16-bc41b4c11ec5
