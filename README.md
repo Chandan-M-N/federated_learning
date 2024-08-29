@@ -1,20 +1,12 @@
 ---
 tags: [quickstart, vision, deployment]
 dataset: [MNIST]
-framework: [mlcube, tensorflow, Keras]
+framework: [tensorflow, Keras]
 ---
 
-# Flower Example using TensorFlow/Keras + MLCube
+# Flower Example using TensorFlow/Keras
 
 This introductory example to Flower uses MLCube together with Keras, but deep knowledge of Keras is not necessarily required to run the example. However, it will help you understand how to adapt Flower to your use-cases with MLCube. Running this example in itself is quite easy.
-
-## Project Setup
-
-Start by cloning the example project. We prepared a single-line command that you can copy into your shell, which will checkout the example for you:
-
-```shell
-git clone --depth=1 https://github.com/adap/flower.git && mv flower/examples/quickstart-mlcube . && rm -rf flower && cd quickstart-mlcube
-```
 
 ### Installing Dependencies
 
@@ -55,14 +47,6 @@ If you don't see any errors, you're good to go!
 
 For the MLCube setup you will need to install Docker on your system. Please refer to the [Docker install guide](https://docs.docker.com/get-docker/) on how to do that.
 
-#### MLCube
-
-For the MLCube setup, we have prepared a script that you can execute in your shell using:
-
-```shell
-./dev/setup.sh
-```
-
 ## Run Federated Learning with TensorFlow/Keras in MLCube with Flower
 
 Afterward, you are ready to start the Flower server as well as the clients. You can simply start the server in a terminal as follows:
@@ -83,8 +67,3 @@ Now you are ready to start the clients. We have prepared a simple script called 
 ./dev/client.sh 2
 ```
 
-Congrats! You have just run a Federated Learning experiment using TensorFlow/Keras in MLCube using Flower for federation.
-
-## Background
-
-Wondering how this works? Most of the interaction with MLCube happens in `mlcube_utils.py`, which reads and writes to the file system. It also provides a function called `run_task`, which invokes `mlcube_docker run ...` to execute the appropriate task. The custom client we have implemented in `client.py` will run the MLCube 'download' task when it's instantiated. Fit and evaluate also interface through the `mlcube_utils.py` helpers for reading and writing to disk and calling the appropriate MLCube tasks.
