@@ -1,18 +1,5 @@
----
-tags: [quickstart, vision, deployment]
-dataset: [MNIST]
-framework: [tensorflow, Keras]
----
 
-# Flower Example using TensorFlow/Keras
-
-This introductory example to Flower uses MLCube together with Keras, but deep knowledge of Keras is not necessarily required to run the example. However, it will help you understand how to adapt Flower to your use-cases with MLCube. Running this example in itself is quite easy.
-
-### Installing Dependencies
-
-Project dependencies (such as `tensorflow` and `flwr`) are defined in `pyproject.toml` and `requirements.txt`. We recommend [Poetry](https://python-poetry.org/docs/) to install those dependencies and manage your virtual environment ([Poetry installation](https://python-poetry.org/docs/#installation)) or [pip](https://pip.pypa.io/en/latest/development/), but feel free to use a different way of installing dependencies and managing virtual environments if you have other preferences.
-
-#### Poetry
+### Poetry
 
 ```shell
 poetry install
@@ -43,9 +30,6 @@ python3 -c "import flwr"
 
 If you don't see any errors, you're good to go!
 
-#### Docker
-
-For the MLCube setup you will need to install Docker on your system. Please refer to the [Docker install guide](https://docs.docker.com/get-docker/) on how to do that.
 
 ## Run Federated Learning with TensorFlow/Keras in MLCube with Flower
 
