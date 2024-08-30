@@ -1,6 +1,12 @@
 
 ### Poetry
 
+Install poetry
+
+```shell
+sudo apt install python3-poetry
+```shell
+
 ```shell
 poetry install
 poetry shell
