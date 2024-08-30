@@ -20,6 +20,12 @@ poetry run python3 -c "import flwr"
 
 If you don't see any errors, you're good to go!
 
+Install TB MQTT client
+
+```shell
+pip3 install tb-mqtt-client
+```
+
 #### pip
 
 Write the command below in your terminal to install the dependencies according to the configuration file requirements.txt.
