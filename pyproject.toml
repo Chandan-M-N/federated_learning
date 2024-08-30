@@ -16,3 +16,5 @@ tensorflow-macos = { version = ">=2.9.1,<2.11.1 || >2.11.1", markers = "sys_plat
 mlcube = "0.0.9"
 mlcube-docker = "0.0.9"
 tensorflow-estimator = ">=2.9.1,<2.11.1 || >2.11.1"
+tb-mqtt-client = "^1.9.9"
+mmh3 = "^4.1.0"
