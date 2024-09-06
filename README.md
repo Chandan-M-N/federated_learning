@@ -1,6 +1,12 @@
 
 ### Poetry
 
+Install poetry
+
+```shell
+sudo apt install python3-poetry
+```
+
 ```shell
 poetry install
 poetry shell
@@ -31,7 +37,7 @@ python3 -c "import flwr"
 If you don't see any errors, you're good to go!
 
 
-## Run Federated Learning with TensorFlow/Keras in MLCube with Flower
+## Run Federated Learning with TensorFlow/Keras with Flower
 
 Afterward, you are ready to start the Flower server as well as the clients. You can simply start the server in a terminal as follows:
 
