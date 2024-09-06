@@ -147,3 +147,15 @@ Traceback (most recent call last):
   File "/home/sunlab/.cache/pypoetry/virtualenvs/quickstart-ml-cube-wGTWLE1g-py3.10/lib/python3.10/site-packages/keras/src/saving/saving_lib.py", line 141, in save_model
     with open(filepath, "wb") as f:
 IsADirectoryError: [Errno 21] Is a directory: '/home/sunlab/flower/quickstart-mlcube/workspaces/1/model_in/mnist_model.keras'
+2024-09-03 11:56:45,685 - dev.mnist - MainThread - INFO - Starting download task
+2024-09-03 11:56:45,692 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/chandan/federated_learning/workspaces/1/data/mnist.npz)
+2024-09-03 11:57:05,179 - flwr - MainThread - INFO - 
+2024-09-03 11:57:05,179 - flwr - MainThread - INFO - Received: train message 4979026b-7384-4459-8aa2-05c984288793
+2024-09-05 23:46:20,711 - dev.mnist - MainThread - INFO - Starting download task
+2024-09-05 23:46:20,711 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/chandan/federated_learning/workspaces/1/data/mnist.npz)
+2024-09-05 23:46:51,184 - flwr - MainThread - INFO - 
+2024-09-05 23:46:51,184 - flwr - MainThread - INFO - Received: train message 88577480-f2b0-4867-baa3-ad1a2e438134
+2024-09-05 23:54:20,303 - dev.mnist - MainThread - INFO - Starting download task
+2024-09-05 23:54:20,304 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/chandan/federated_learning/workspaces/1/data/mnist.npz)
+2024-09-05 23:54:20,329 - flwr - MainThread - INFO - 
+2024-09-05 23:54:20,329 - flwr - MainThread - INFO - Received: train message a0d10767-e1e1-4a06-b6ed-a32fe9a8302c

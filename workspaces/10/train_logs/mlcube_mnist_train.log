@@ -1,0 +1,42 @@
+2024-08-30 13:12:47,869 - dev.mnist - MainThread - INFO - Parameters have been read (/home/chandan/federated_learning/workspaces/10/parameters/default.parameters.yaml).
+2024-08-30 13:12:54,330 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/chandan/federated_learning/workspaces/10/data/mnist.npz).
+2024-08-30 13:12:54,385 - absl - MainThread - WARNING - Skipping variable loading for optimizer 'Adam', because it has 9 variables whereas the saved optimizer has 1 variables. 
+2024-08-30 13:12:54,386 - dev.mnist - MainThread - INFO - Model has been built.
+2024-08-30 13:12:54,390 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-08-30 13:13:40,537 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-08-30 13:13:40,569 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-08-30 13:13:40,689 - flwr - MainThread - INFO - Sent reply
+2024-08-30 13:13:40,806 - flwr - MainThread - INFO - 
+2024-08-30 13:13:40,806 - flwr - MainThread - INFO - Received: evaluate message 3a4a9034-96e7-4370-96da-081b60bae5d0
+2024-08-30 13:38:09,365 - dev.mnist - MainThread - INFO - Parameters have been read (/home/chandan/federated_learning/workspaces/10/parameters/default.parameters.yaml).
+2024-08-30 13:38:09,963 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/chandan/federated_learning/workspaces/10/data/mnist.npz).
+2024-08-30 13:38:10,017 - absl - MainThread - WARNING - Skipping variable loading for optimizer 'Adam', because it has 9 variables whereas the saved optimizer has 1 variables. 
+2024-08-30 13:38:10,018 - dev.mnist - MainThread - INFO - Model has been built.
+2024-08-30 13:38:10,025 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-08-30 13:39:02,833 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-08-30 13:39:02,917 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-08-30 13:39:03,040 - flwr - MainThread - INFO - Sent reply
+2024-08-30 13:39:03,187 - flwr - MainThread - INFO - 
+2024-08-30 13:39:03,187 - flwr - MainThread - INFO - Received: evaluate message e4602ef2-4de9-4adc-8e37-45526b0de788
+2024-08-30 20:02:13,012 - dev.mnist - MainThread - INFO - Parameters have been read (/home/chandan/federated_learning/workspaces/10/parameters/default.parameters.yaml).
+2024-08-30 20:02:24,103 - dev.mnist - MainThread - ERROR - name 'dataset_file' is not defined
+2024-08-30 20:03:30,614 - dev.mnist - MainThread - INFO - Parameters have been read (/home/chandan/federated_learning/workspaces/10/parameters/default.parameters.yaml).
+2024-08-30 20:03:37,086 - dev.mnist - MainThread - INFO - Dataset has been loaded (%s).
+2024-08-30 20:03:37,145 - absl - MainThread - WARNING - Skipping variable loading for optimizer 'Adam', because it has 9 variables whereas the saved optimizer has 1 variables. 
+2024-08-30 20:03:37,146 - dev.mnist - MainThread - INFO - Model has been built.
+2024-08-30 20:03:37,152 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-08-30 20:04:50,698 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-08-30 20:04:50,751 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-08-30 20:04:50,871 - flwr - MainThread - INFO - Sent reply
+2024-08-30 20:04:50,884 - flwr - MainThread - INFO - 
+2024-08-30 20:04:50,884 - flwr - MainThread - INFO - Received: evaluate message dc78f932-8b8e-4b6a-ba3b-97ea07644bda
+2024-08-30 20:09:34,740 - dev.mnist - MainThread - INFO - Parameters have been read (/home/chandan/federated_learning/workspaces/10/parameters/default.parameters.yaml).
+2024-08-30 20:09:41,185 - dev.mnist - MainThread - INFO - Dataset has been loaded (%s).
+2024-08-30 20:09:41,229 - absl - MainThread - WARNING - Skipping variable loading for optimizer 'Adam', because it has 9 variables whereas the saved optimizer has 1 variables. 
+2024-08-30 20:09:41,230 - dev.mnist - MainThread - INFO - Model has been built.
+2024-08-30 20:09:41,236 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-08-30 20:10:54,925 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-08-30 20:10:54,987 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-08-30 20:10:55,073 - flwr - MainThread - INFO - Sent reply
+2024-08-30 20:10:55,084 - flwr - MainThread - INFO - 
+2024-08-30 20:10:55,085 - flwr - MainThread - INFO - Received: evaluate message 38b4ae6e-fcd5-4f33-bb8e-83c48c311cbd

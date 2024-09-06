@@ -52,3 +52,28 @@
 2024-08-23 16:57:18,129 - __main__ - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 1, 'batch_size': 32}).
 2024-08-23 16:57:18,188 - __main__ - MainThread - INFO - Dataset has been loaded (/mlcube_io0/mnist.npz).
 2024-08-23 16:57:19,437 - __main__ - MainThread - INFO - Model has been evaluated.
+2024-09-03 11:58:05,874 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 10, 'batch_size': 32}).
+2024-09-03 11:58:07,328 - dev.mnist - MainThread - INFO - Dataset has been loaded (%s).
+2024-09-03 11:58:07,408 - absl - MainThread - WARNING - Skipping variable loading for optimizer 'Adam', because it has 9 variables whereas the saved optimizer has 1 variables. 
+2024-09-03 11:58:08,088 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-09-03 11:58:08,772 - tb_connection - MainThread - WARNING - Waiting for connection to be established before sending data to ThingsBoard!
+2024-09-03 11:58:08,879 - tb_connection - Thread-8 (_thread_main) - INFO - MQTT client <paho.mqtt.client.Client object at 0x7fd5509d6cb0> - Connected!
+2024-09-03 11:58:08,889 - tb_connection - Thread-8 (_thread_main) - WARNING - MQTT client was disconnected with reason code 7 (The connection was lost.) 
+2024-09-03 11:58:08,891 - tb_connection - MainThread - WARNING - Waiting for connection to be established before sending data to ThingsBoard!
+2024-09-03 11:58:11,044 - tb_connection - Thread-8 (_thread_main) - INFO - MQTT client <paho.mqtt.client.Client object at 0x7fd5509d6cb0> - Connected!
+2024-09-03 11:58:11,100 - tb_connection - Thread-8 (_thread_main) - WARNING - MQTT client was disconnected with reason code 0 (The operation completed successfully.) 
+2024-09-03 11:58:11,102 - flwr - MainThread - INFO - Sent reply
+2024-09-03 11:58:11,124 - flwr - MainThread - INFO - 
+2024-09-03 11:58:11,124 - flwr - MainThread - INFO - Received: reconnect message 670e24f5-422d-4347-b177-2b2358636c49
+2024-09-03 11:58:11,185 - flwr - MainThread - INFO - Disconnect and shut down
+2024-09-05 23:55:15,686 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 10, 'batch_size': 32}).
+2024-09-05 23:55:17,216 - dev.mnist - MainThread - INFO - Dataset has been loaded (%s).
+2024-09-05 23:55:17,262 - absl - MainThread - WARNING - Skipping variable loading for optimizer 'Adam', because it has 9 variables whereas the saved optimizer has 1 variables. 
+2024-09-05 23:55:17,964 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-09-05 23:55:18,564 - tb_connection - MainThread - WARNING - Waiting for connection to be established before sending data to ThingsBoard!
+2024-09-05 23:55:18,661 - tb_connection - Thread-8 (_thread_main) - INFO - MQTT client <paho.mqtt.client.Client object at 0x7f3f46e032e0> - Connected!
+2024-09-05 23:55:18,706 - tb_connection - Thread-8 (_thread_main) - WARNING - MQTT client was disconnected with reason code 0 (The operation completed successfully.) 
+2024-09-05 23:55:18,708 - flwr - MainThread - INFO - Sent reply
+2024-09-05 23:55:19,831 - flwr - MainThread - INFO - 
+2024-09-05 23:55:19,832 - flwr - MainThread - INFO - Received: reconnect message 7e4e277c-978d-482c-b448-e017ff14f026
+2024-09-05 23:55:19,869 - flwr - MainThread - INFO - Disconnect and shut down

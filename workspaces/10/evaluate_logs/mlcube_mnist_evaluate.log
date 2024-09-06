@@ -1,0 +1,41 @@
+2024-08-30 13:13:40,858 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 10, 'batch_size': 32}).
+2024-08-30 13:13:40,962 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/chandan/federated_learning/workspaces/10/data/mnist.npz).
+2024-08-30 13:13:41,017 - absl - MainThread - WARNING - Skipping variable loading for optimizer 'Adam', because it has 9 variables whereas the saved optimizer has 1 variables. 
+2024-08-30 13:13:41,797 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-30 13:13:41,798 - flwr - MainThread - INFO - Sent reply
+2024-08-30 13:13:41,809 - flwr - MainThread - INFO - 
+2024-08-30 13:13:41,809 - flwr - MainThread - INFO - Received: reconnect message 13f2479a-88c2-4487-89f7-081cd9498e20
+2024-08-30 13:13:41,851 - flwr - MainThread - INFO - Disconnect and shut down
+2024-08-30 13:39:03,237 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 10, 'batch_size': 32}).
+2024-08-30 13:39:03,346 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/chandan/federated_learning/workspaces/10/data/mnist.npz).
+2024-08-30 13:39:03,389 - absl - MainThread - WARNING - Skipping variable loading for optimizer 'Adam', because it has 9 variables whereas the saved optimizer has 1 variables. 
+2024-08-30 13:39:05,404 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-30 13:39:05,479 - tb_connection - MainThread - WARNING - Waiting for connection to be established before sending data to ThingsBoard!
+2024-08-30 13:39:05,503 - tb_connection - Thread-8 (_thread_main) - INFO - MQTT client <paho.mqtt.client.Client object at 0x7f2c0eefb1c0> - Connected!
+2024-08-30 13:39:05,549 - tb_connection - Thread-8 (_thread_main) - WARNING - MQTT client was disconnected with reason code 0 (The operation completed successfully.) 
+2024-08-30 13:39:05,550 - flwr - MainThread - INFO - Sent reply
+2024-08-30 13:39:05,566 - flwr - MainThread - INFO - 
+2024-08-30 13:39:05,566 - flwr - MainThread - INFO - Received: reconnect message 6bfb0220-2f26-45a4-a3c6-b6bf0b74517e
+2024-08-30 13:39:05,622 - flwr - MainThread - INFO - Disconnect and shut down
+2024-08-30 20:04:50,936 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 10, 'batch_size': 32}).
+2024-08-30 20:04:52,565 - dev.mnist - MainThread - INFO - Dataset has been loaded (%s).
+2024-08-30 20:04:52,610 - absl - MainThread - WARNING - Skipping variable loading for optimizer 'Adam', because it has 9 variables whereas the saved optimizer has 1 variables. 
+2024-08-30 20:04:53,334 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-30 20:04:53,400 - tb_connection - MainThread - WARNING - Waiting for connection to be established before sending data to ThingsBoard!
+2024-08-30 20:04:53,426 - tb_connection - Thread-8 (_thread_main) - INFO - MQTT client <paho.mqtt.client.Client object at 0x7f76d01034c0> - Connected!
+2024-08-30 20:04:53,471 - tb_connection - Thread-8 (_thread_main) - WARNING - MQTT client was disconnected with reason code 0 (The operation completed successfully.) 
+2024-08-30 20:04:53,472 - flwr - MainThread - INFO - Sent reply
+2024-08-30 20:04:53,479 - flwr - MainThread - INFO - 
+2024-08-30 20:04:53,479 - flwr - MainThread - INFO - Received: reconnect message 6d29d1ca-dd61-4b07-af75-91f51078d315
+2024-08-30 20:04:53,484 - flwr - MainThread - INFO - Disconnect and shut down
+2024-08-30 20:10:55,134 - dev.mnist - MainThread - INFO - Parameters have been read ({'optimizer': 'adam', 'epochs': 10, 'batch_size': 32}).
+2024-08-30 20:10:56,462 - dev.mnist - MainThread - INFO - Dataset has been loaded (%s).
+2024-08-30 20:10:56,502 - absl - MainThread - WARNING - Skipping variable loading for optimizer 'Adam', because it has 9 variables whereas the saved optimizer has 1 variables. 
+2024-08-30 20:10:57,149 - dev.mnist - MainThread - INFO - Model has been evaluated.
+2024-08-30 20:10:57,212 - tb_connection - MainThread - WARNING - Waiting for connection to be established before sending data to ThingsBoard!
+2024-08-30 20:10:57,240 - tb_connection - Thread-8 (_thread_main) - INFO - MQTT client <paho.mqtt.client.Client object at 0x7efe2be3e920> - Connected!
+2024-08-30 20:10:57,287 - tb_connection - Thread-8 (_thread_main) - WARNING - MQTT client was disconnected with reason code 0 (The operation completed successfully.) 
+2024-08-30 20:10:57,289 - flwr - MainThread - INFO - Sent reply
+2024-08-30 20:10:57,295 - flwr - MainThread - INFO - 
+2024-08-30 20:10:57,296 - flwr - MainThread - INFO - Received: reconnect message 3ea160cf-cf5d-4e81-bd13-55dc63c0353e
+2024-08-30 20:10:57,307 - flwr - MainThread - INFO - Disconnect and shut down

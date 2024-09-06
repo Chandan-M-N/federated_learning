@@ -115,3 +115,25 @@
 2024-08-28 19:43:01,527 - dev.mnist - MainThread - INFO - Parameters have been read (/home/sunlab/flower/quickstart-mlcube/workspaces/1/parameters/default.parameters.yaml).
 2024-08-28 19:43:01,759 - dev.mnist - MainThread - INFO - Dataset has been loaded (/home/sunlab/flower/quickstart-mlcube/workspaces/1/data/mnist.npz).
 2024-08-28 19:43:01,816 - dev.mnist - MainThread - ERROR - Functional._lookup_dependency() takes 2 positional arguments but 3 were given
+2024-09-03 11:57:05,323 - dev.mnist - MainThread - INFO - Parameters have been read (/home/chandan/federated_learning/workspaces/1/parameters/default.parameters.yaml).
+2024-09-03 11:57:17,543 - dev.mnist - MainThread - INFO - Dataset has been loaded (%s).
+2024-09-03 11:57:17,729 - absl - MainThread - WARNING - Skipping variable loading for optimizer 'Adam', because it has 9 variables whereas the saved optimizer has 1 variables. 
+2024-09-03 11:57:17,731 - dev.mnist - MainThread - INFO - Model has been built.
+2024-09-03 11:57:17,736 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-09-03 11:58:05,559 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-09-03 11:58:05,614 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-09-03 11:58:05,700 - flwr - MainThread - INFO - Sent reply
+2024-09-03 11:58:05,807 - flwr - MainThread - INFO - 
+2024-09-03 11:58:05,808 - flwr - MainThread - INFO - Received: evaluate message 50e442f6-0eb8-42f0-abeb-129c036321e7
+2024-09-05 23:46:51,341 - dev.mnist - MainThread - INFO - Parameters have been read (/home/chandan/federated_learning/workspaces/1/parameters/default.parameters.yaml).
+2024-09-05 23:47:01,183 - dev.mnist - MainThread - ERROR - name 'client_id' is not defined
+2024-09-05 23:54:20,479 - dev.mnist - MainThread - INFO - Parameters have been read (/home/chandan/federated_learning/workspaces/1/parameters/default.parameters.yaml).
+2024-09-05 23:54:29,623 - dev.mnist - MainThread - INFO - Dataset has been loaded (%s).
+2024-09-05 23:54:29,697 - absl - MainThread - WARNING - Skipping variable loading for optimizer 'Adam', because it has 9 variables whereas the saved optimizer has 1 variables. 
+2024-09-05 23:54:29,698 - dev.mnist - MainThread - INFO - Model has been built.
+2024-09-05 23:54:29,706 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-09-05 23:55:15,506 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-09-05 23:55:15,529 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-09-05 23:55:15,589 - flwr - MainThread - INFO - Sent reply
+2024-09-05 23:55:15,633 - flwr - MainThread - INFO - 
+2024-09-05 23:55:15,633 - flwr - MainThread - INFO - Received: evaluate message be807d3f-72e8-4976-aa8c-7a6384c7a258

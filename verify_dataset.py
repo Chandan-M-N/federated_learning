@@ -1,24 +1,57 @@
+# import numpy as np
+# from pymongo import MongoClient
+
+# # Load MNIST data
+# mnist_file = 'workspaces//10//data//mnist.npz'
+# with np.load(mnist_file) as data:
+#     x_train = data['x_train']
+#     y_train = data['y_train']
+
+# # Connect to MongoDB
+# client = MongoClient("mongodb://localhost:27017/")  # Adjust the connection string as needed
+# db = client["myDatabase"]  # Replace with your database name
+# collection = db["MNISTtrain"]
+
+# # Prepare data for insertion
+# documents = []
+# for i in range(len(x_train)):
+#     document = {
+#         "image": x_train[i].tolist(),  # Convert numpy array to list
+#         "label": int(y_train[i])
+#     }
+#     documents.append(document)
+
+# # Insert data into MongoDB
+# collection.insert_many(documents)
+
+# print("Data uploaded successfully to MNISTtrain!")
+# print(f"Total number of documents uploaded: {len(documents)}")
+
 import numpy as np
-import matplotlib.pyplot as plt
+from pymongo import MongoClient
 
-def visualize_samples(npz_file_path):
-    """Load and visualize samples from the .npz file."""
-    try:
-        with np.load(npz_file_path) as data:
-            x_train = data['x_train']
-            y_train = data['y_train']
+# Load MNIST test data
+mnist_file = 'workspaces//10//data//mnist.npz'
+with np.load(mnist_file) as data:
+    x_test = data['x_test']
+    y_test = data['y_test']
 
-            # Display the first 5 images and their labels
-            for i in range(5):
-                plt.subplot(1, 5, i + 1)
-                plt.imshow(x_train[i], cmap='gray')
-                plt.title(f'Label: {y_train[i]}')
-                plt.axis('off')
+# Connect to MongoDB
+client = MongoClient("mongodb://localhost:27017/")  # Adjust the connection string as needed
+db = client["myDatabase"]  # Replace with your database name
+collection = db["MNISTtest"]
 
-            plt.show()
-    except Exception as e:
-        print(f"An error occurred: {e}")
+# Prepare data for insertion
+documents = []
+for i in range(len(x_test)):
+    document = {
+        "image": x_test[i].tolist(),  # Convert numpy array to list
+        "label": int(y_test[i])
+    }
+    documents.append(document)
 
-# Path to the .npz file
-npz_file_path = "workspaces/8/data/mnist.npz"
-visualize_samples(npz_file_path)
+# Insert data into MongoDB
+collection.insert_many(documents)
+
+print("Data uploaded successfully to MNISTtest!")
+

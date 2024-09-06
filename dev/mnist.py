@@ -9,6 +9,9 @@ from enum import Enum
 import numpy as np
 import tensorflow as tf
 import yaml
+import numpy as np
+from pymongo import MongoClient
+import time
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"  # Remove warning messages
 
@@ -19,6 +22,81 @@ class Task(str, Enum):
     DownloadData = "download"
     Train = "train"
     Evaluate = "evaluate"
+
+
+def fetch_train_data(client_id):
+    start_time = time.time()
+    mongo_uri="mongodb://localhost:27017/"
+    database_name="myDatabase"
+    collection_name="MNISTtrain"
+    # Connect to MongoDB
+    client = MongoClient(mongo_uri)
+    db = client[database_name]
+    collection = db[collection_name]
+
+    # Fetch all documents
+    cursor = collection.find()
+    images = []
+    labels = []
+
+    for document in cursor:
+        images.append(document['image'])
+        labels.append(document['label'])
+
+    # Convert lists to NumPy arrays
+    x_train = np.array(images, dtype=np.float32)
+    y_train = np.array(labels, dtype=np.int64)
+
+    if client_id == 1:
+        x_train = x_train[:30000]
+        y_train = y_train[:30000]
+    elif client_id == 2:
+        x_train = x_train[30000:60001]
+        y_train = y_train[30000:60001]
+
+
+    end_time = time.time()
+
+    # Calculate the time taken
+    time_taken = end_time - start_time
+
+    print(f"\n--------Time taken to fetch train dataset: {time_taken:.4f} seconds\n------------")
+
+    return x_train, y_train
+
+
+def fetch_test_data():
+    start_time = time.time()
+    mongo_uri="mongodb://localhost:27017/"
+    database_name="myDatabase"
+    collection_name="MNISTtest"
+    
+    # Connect to MongoDB
+    client = MongoClient(mongo_uri)
+    db = client[database_name]
+    collection = db[collection_name]
+
+    # Fetch all documents
+    cursor = collection.find()
+    images = []
+    labels = []
+
+    for document in cursor:
+        images.append(document['image'])
+        labels.append(document['label'])
+
+    # Convert lists to NumPy arrays
+    x_test = np.array(images, dtype=np.float32)
+    y_test = np.array(labels, dtype=np.int64)
+
+    end_time = time.time()
+
+    # Calculate the time taken
+    time_taken = end_time - start_time
+
+    print(f"\n--------Time taken to fetch test dataset: {time_taken:.4f} seconds\n------------")
+    return x_test, y_test
+
 
 
 def create_directory(path: str) -> None:
@@ -90,7 +168,7 @@ def download(workspace, client_id):
         sys.exit(1)
 
 
-def train(workspace,client_id) -> None:
+def train(workspace,client_id):
     """Task: train."""
 
     try:
@@ -106,12 +184,17 @@ def train(workspace,client_id) -> None:
             parameters = yaml.load(stream, Loader=yaml.FullLoader)
         logger.info("Parameters have been read (%s).", f'{workspace}/parameters/default.parameters.yaml')
         print(f"Parameters for initial model {parameters}")
-        dataset_file = os.path.join(f'{workspace}/data', "mnist.npz")
-        with np.load(dataset_file, allow_pickle=True) as f:
-            x_train, y_train = f["x_train"], f["y_train"]
+
+
+        # dataset_file = os.path.join(f'{workspace}/data', "mnist.npz")
+        # with np.load(dataset_file, allow_pickle=True) as f:
+        #     x_train, y_train = f["x_train"], f["y_train"]
+
+        x_train, y_train = fetch_train_data(client_id)
+
         x_train = x_train / 255.0
 
-        logger.info("Dataset has been loaded (%s).", dataset_file)
+        logger.info("Dataset has been loaded (%s).")
         print("Dataset ready")
 
         # Load from checkpoint;
@@ -179,12 +262,15 @@ def evaluate(workspace,client_id) -> None:
             logger.info("Parameters have been read (%s).", parameters)
             print(f"Parameters for evaluate fetched from yaml file {parameters}")
 
-        dataset_file = os.path.join(f'{workspace}/data', "mnist.npz")
-        with np.load(dataset_file, allow_pickle=True) as f:
-            x_test, y_test = f["x_test"], f["y_test"]
+        # dataset_file = os.path.join(f'{workspace}/data', "mnist.npz")
+        # with np.load(dataset_file, allow_pickle=True) as f:
+        #     x_test, y_test = f["x_test"], f["y_test"]
+
+        x_test, y_test = fetch_test_data()
+
         x_test = x_test / 255.0
-        logger.info("Dataset has been loaded (%s).", dataset_file)
-        print("Dataset has been loaded (%s).", dataset_file)
+        logger.info("Dataset has been loaded (%s)." )
+        print("Dataset has been loaded (%s).")
         model = tf.keras.models.load_model(os.path.join(f'{workspace}/model_in', "mnist_model.keras"))
         model.compile(
             optimizer=parameters.get("optimizer", "adam"),

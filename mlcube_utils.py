@@ -1,7 +1,7 @@
 import json
 import os
 import sys
-
+from tb_device_mqtt import TBDeviceMqttClient, TBPublishInfo
 import tensorflow as tf
 from flwr.common import ndarrays_to_parameters
 from dev import mnist
@@ -10,7 +10,21 @@ MODULE_PATH = os.path.abspath(__file__)
 MODULE_DIR = os.path.dirname(MODULE_PATH)
 MLCUBE_DIR = os.path.join(MODULE_DIR, "mlcube")
 
+def send_to_thingsboard(accuracy,loss):
 
+    telemetry = {"accuracy": accuracy, "loss": loss}
+    client = TBDeviceMqttClient("demo.thingsboard.io", username="S2gHkIiwwoIoEMcBzDYw")
+    # Connect to ThingsBoard
+    client.connect()
+    # Sending telemetry without checking the delivery status
+    client.send_telemetry(telemetry) 
+    # Sending telemetry and checking the delivery status (QoS = 1 by default)
+    result = client.send_telemetry(telemetry)
+    # get is a blocking call that awaits delivery status  
+    success = result.get() == TBPublishInfo.TB_ERR_SUCCESS
+    # Disconnect from ThingsBoard
+    client.disconnect()
+    return True
 
 
 def create_directory(path: str) -> None:
@@ -89,6 +103,7 @@ def load_evaluate_metrics(workspace: str):
     data["loss"] = float(data["loss"])
     data["accuracy"] = float(data["accuracy"])
     data["num_examples"] = 1  # int(data["num_examples"])
+    send_to_thingsboard(data["accuracy"],data["loss"])
     print(f"Metrics after evaluate {data}")
     return data
 

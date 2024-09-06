@@ -117,3 +117,25 @@
 2024-08-23 16:57:10,874 - __main__ - MainThread - INFO - Model has been trained.
 2024-08-23 16:57:11,437 - tensorflow - MainThread - INFO - Assets written to: /mlcube_io2/mnist_model/assets
 2024-08-23 16:57:11,470 - __main__ - MainThread - INFO - Model has been saved.
+2024-09-03 11:57:05,318 - dev.mnist - MainThread - INFO - Parameters have been read (/home/chandan/federated_learning/workspaces/2/parameters/default.parameters.yaml).
+2024-09-03 11:57:17,621 - dev.mnist - MainThread - INFO - Dataset has been loaded (%s).
+2024-09-03 11:57:17,734 - absl - MainThread - WARNING - Skipping variable loading for optimizer 'Adam', because it has 9 variables whereas the saved optimizer has 1 variables. 
+2024-09-03 11:57:17,736 - dev.mnist - MainThread - INFO - Model has been built.
+2024-09-03 11:57:17,741 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-09-03 11:58:04,482 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-09-03 11:58:04,509 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-09-03 11:58:04,594 - flwr - MainThread - INFO - Sent reply
+2024-09-03 11:58:05,812 - flwr - MainThread - INFO - 
+2024-09-03 11:58:05,813 - flwr - MainThread - INFO - Received: evaluate message 2e11dab8-2572-4268-8b21-b54b8f3643e4
+2024-09-05 23:46:51,344 - dev.mnist - MainThread - INFO - Parameters have been read (/home/chandan/federated_learning/workspaces/2/parameters/default.parameters.yaml).
+2024-09-05 23:47:01,295 - dev.mnist - MainThread - ERROR - name 'client_id' is not defined
+2024-09-05 23:54:20,478 - dev.mnist - MainThread - INFO - Parameters have been read (/home/chandan/federated_learning/workspaces/2/parameters/default.parameters.yaml).
+2024-09-05 23:54:29,614 - dev.mnist - MainThread - INFO - Dataset has been loaded (%s).
+2024-09-05 23:54:29,702 - absl - MainThread - WARNING - Skipping variable loading for optimizer 'Adam', because it has 9 variables whereas the saved optimizer has 1 variables. 
+2024-09-05 23:54:29,705 - dev.mnist - MainThread - INFO - Model has been built.
+2024-09-05 23:54:29,711 - dev.mnist - MainThread - INFO - Model has been compiled.
+2024-09-05 23:55:15,467 - dev.mnist - MainThread - INFO - Model has been trained.
+2024-09-05 23:55:15,497 - dev.mnist - MainThread - INFO - Model has been saved.
+2024-09-05 23:55:15,562 - flwr - MainThread - INFO - Sent reply
+2024-09-05 23:55:15,626 - flwr - MainThread - INFO - 
+2024-09-05 23:55:15,626 - flwr - MainThread - INFO - Received: evaluate message b3a301cd-a65f-4963-8850-80ec9ddffd40

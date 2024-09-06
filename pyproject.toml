@@ -16,3 +16,4 @@ tensorflow-macos = { version = ">=2.9.1,<2.11.1 || >2.11.1", markers = "sys_plat
 mlcube = "0.0.9"
 mlcube-docker = "0.0.9"
 tensorflow-estimator = ">=2.9.1,<2.11.1 || >2.11.1"
+pymongo = "^4.8.0"

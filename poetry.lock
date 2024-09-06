@@ -167,6 +167,23 @@ test = ["pytest (>=6.2.0)", "pytest-benchmark", "pytest-cov", "pytest-xdist", "p
 test-randomorder = ["pytest-randomly"]
 
 [[package]]
+name = "dnspython"
+version = "2.6.1"
+description = "DNS toolkit"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.extras]
+dev = ["black (>=23.1.0)", "coverage (>=7.0)", "flake8 (>=7)", "mypy (>=1.8)", "pylint (>=3)", "pytest-cov (>=4.1.0)", "pytest (>=7.4)", "sphinx (>=7.2.0)", "twine (>=4.0.0)", "wheel (>=0.42.0)"]
+dnssec = ["cryptography (>=41)"]
+doh = ["h2 (>=4.1.0)", "httpcore (>=1.0.0)", "httpx (>=0.26.0)"]
+doq = ["aioquic (>=0.9.25)"]
+idna = ["idna (>=3.6)"]
+trio = ["trio (>=0.23)"]
+wmi = ["wmi (>=1.5.1)"]
+
+[[package]]
 name = "flatbuffers"
 version = "24.3.25"
 description = "The FlatBuffers serialization format for Python"
@@ -557,6 +574,27 @@ python-versions = ">=3.8"
 windows-terminal = ["colorama (>=0.4.6)"]
 
 [[package]]
+name = "pymongo"
+version = "4.8.0"
+description = "Python driver for MongoDB <http://www.mongodb.org>"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.dependencies]
+dnspython = ">=1.16.0,<3.0.0"
+
+[package.extras]
+aws = ["pymongo-auth-aws (>=1.1.0,<2.0.0)"]
+docs = ["furo (==2023.9.10)", "readthedocs-sphinx-search (>=0.3,<1.0)", "sphinx-rtd-theme (>=2,<3)", "sphinx (>=5.3,<8)", "sphinxcontrib-shellcheck (>=1,<2)"]
+encryption = ["certifi", "pymongo-auth-aws (>=1.1.0,<2.0.0)", "pymongocrypt (>=1.6.0,<2.0.0)"]
+gssapi = ["pykerberos", "winkerberos (>=0.5.0)"]
+ocsp = ["certifi", "cryptography (>=2.5)", "pyopenssl (>=17.2.0)", "requests (<3.0.0)", "service-identity (>=18.1.0)"]
+snappy = ["python-snappy"]
+test = ["pytest (>=7)"]
+zstd = ["zstandard"]
+
+[[package]]
 name = "pyreadline3"
 version = "3.4.1"
 description = "A python implementation of GNU readline."
@@ -907,7 +945,7 @@ test = ["pytest (>=6,<8.1.0 || >=8.2.0)", "pytest-checkdocs (>=2.4)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8,<3.11"
-content-hash = "09d60a70d2006228a7fc7fcc64cb67fc8ccff6ab703553adf8341f6274b5e6a6"
+content-hash = "828c7e1d1360388ee2f728ed46dd90bc57f7d417a8b75cd6ed99dda604936286"
 
 [metadata.files]
 absl-py = []
@@ -925,6 +963,7 @@ colorama = []
 coloredlogs = []
 cookiecutter = []
 cryptography = []
+dnspython = []
 flatbuffers = []
 flwr = []
 gast = []
@@ -959,6 +998,7 @@ pyasn1-modules = []
 pycparser = []
 pycryptodome = []
 pygments = []
+pymongo = []
 pyreadline3 = []
 python-dateutil = []
 python-slugify = []

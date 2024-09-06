@@ -1,0 +1,20 @@
+2024-08-30 13:12:46,612 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-30 13:12:47,497 - dev.mnist - MainThread - INFO - MNIST dataset has been downloaded.
+2024-08-30 13:12:47,564 - flwr - MainThread - INFO - 
+2024-08-30 13:12:47,565 - flwr - MainThread - INFO - Received: train message 9918a1f8-8beb-4e83-878c-1dfaf713fb15
+2024-08-30 13:38:09,129 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-30 13:38:09,129 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/chandan/federated_learning/workspaces/10/data/mnist.npz)
+2024-08-30 13:38:09,188 - flwr - MainThread - INFO - 
+2024-08-30 13:38:09,188 - flwr - MainThread - INFO - Received: train message 32f9df06-cba8-4774-8a1c-023a4322ff6c
+2024-08-30 20:02:12,823 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-30 20:02:12,825 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/chandan/federated_learning/workspaces/10/data/mnist.npz)
+2024-08-30 20:02:12,856 - flwr - MainThread - INFO - 
+2024-08-30 20:02:12,856 - flwr - MainThread - INFO - Received: train message 389ecb9e-b204-4cdd-beb3-650454337380
+2024-08-30 20:03:30,450 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-30 20:03:30,450 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/chandan/federated_learning/workspaces/10/data/mnist.npz)
+2024-08-30 20:03:30,477 - flwr - MainThread - INFO - 
+2024-08-30 20:03:30,478 - flwr - MainThread - INFO - Received: train message 09a15581-73bf-4ad3-86ca-cca0ac969544
+2024-08-30 20:09:34,582 - dev.mnist - MainThread - INFO - Starting download task
+2024-08-30 20:09:34,582 - dev.mnist - MainThread - INFO - MNIST data has already been downloaded (file exists: /home/chandan/federated_learning/workspaces/10/data/mnist.npz)
+2024-08-30 20:09:34,607 - flwr - MainThread - INFO - 
+2024-08-30 20:09:34,607 - flwr - MainThread - INFO - Received: train message 5124bca4-1298-4ad3-b0c3-bcbc9985bb58
